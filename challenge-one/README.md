@@ -7,8 +7,8 @@ Example input:
 Example output:     
 `"Your calculated total is €266 lower then expected"`
 
-* The `first four elements` of the array are `bills`: 150$, 40$, 12$, 84$. You don't have to include the $-sign.          
-* The `last element` in this array is the `total sum calculated by Max himself`: 20$. His calculations are wrong in this example. 
+* The `first four elements` of the array are `bills`: 150, 40, 12, 84.          
+* The `last element` in this array is the `total sum calculated by Max himself`: 20. His calculations are wrong in this example. 
 
 He wants us to create a `function` that accepts a `single array` as a `parameter`. The requirements are:     
 * If the total of all bills equals the total sum provided by Max. You should return a text saying `"Your calculations are correct"`. 
