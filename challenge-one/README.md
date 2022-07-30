@@ -11,8 +11,8 @@ Example output:
 * The last element in this array is the total sum calculated by Billy himself: €20. His calculations are wrong in this example. 
 
 He wants us to create a function that accepts a single array. The requirements are:     
-* If the total of all bills equals the total sum provided by Billy. You should return a text saying 'ok'. 
-* If the total of all bills is lower than the total sum provided by Billy. You should return a text saying that he is paying too much. 
-* If the total of all bills is higher than what is provided by Billy. You should return a text saying he needs to pay more. 
+* If the total of all bills equals the total sum provided by Max. You should return a text saying "Your calculations are correct!". 
+* If the total of all bills is lower than the total sum. You should return a text saying "Your calculated total is higher then expected.";
+* If the total of all bills is higher than what is provided. You should return a text saying "Your calculated total is lower then expected."
 
 Make sure to check on illegal inputs too. If there is any element in the array that isn't a number, just return an error message. 
