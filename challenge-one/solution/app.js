@@ -1,4 +1,4 @@
-//CHALLENGE ONE
+//CHALLENGE ONE - SOLUTION
 
 function checkBills(bills) {
     let sum = 0;
