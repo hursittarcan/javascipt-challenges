@@ -5,7 +5,7 @@ Karen is a teacher and she wants a simple console application to help her with m
 * The average score of the test
 
 Example input:     
-`let scores = [8, 2, 7, 9, 6, 6, 4, 2, 3, 8, 10, 10, 5, 0, 4, 6]`      
+`let scores = [8, 2, 7, 9, 6, 6, 4, 2, 3, 8, 10, 10, 5, 0, 4, 6];`      
 
 Example output:     
 `"The highest score for this test is: 10"`      
