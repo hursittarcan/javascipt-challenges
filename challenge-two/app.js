@@ -4,7 +4,6 @@
 function checkScores(scores) {
     let highestScore = scores[0];
     let lowestScore = scores[0];
-    let averageScore = scores[0];
     let totalAmountOfScores = 0;
     let total = 0;
 
@@ -20,13 +19,11 @@ function checkScores(scores) {
         }
     });
 
-    averageScore = total / totalAmountOfScores;
-
     console.log("TEST RESULTS");
     console.log("---------------------------------------------");
     console.log("The highest score for this test is: " + highestScore);
     console.log("The lowest score for this test is: " + lowestScore);
-    console.log("The average score for this test is: " + Math.round(averageScore));
+    console.log("The average score for this test is: " + Math.round(total / totalAmountOfScores));
     console.log("---------------------------------------------");
 }
 
