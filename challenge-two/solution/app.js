@@ -1,5 +1,4 @@
-//teacher wants to fill in an array of scores.
-//Wants to get the highest / lowest / medium scores, wants to know how many people have above medium and how many have below medium.
+//CHALLENGE ONE - SOLUTION
 
 function checkScores(scores) {
     let highestScore = scores[0];
@@ -27,15 +26,5 @@ function checkScores(scores) {
     console.log("---------------------------------------------");
 }
 
-let scores = [8, 2, 7, 9, 6, 6, 4, 2, 3, 8, 10, 10, 5, 0, 4, 6]
-checkScores(scores)
-
-//
-// function checkIfNumbersAreEqual(numberOne, numberTwo) {
-//     return numberOne === numberTwo;
-// }
-//
-// let numberOne = 15;
-// let numberTwo = 15;
-//
-// console.log(checkIfNumbersAreEqual(numberOne, numberTwo));
+let scores = [8, 2, 7, 9, 6, 6, 4, 2, 3, 8, 10, 10, 5, 0, 4, 6];
+checkScores(scores);
